@@ -1,0 +1,25 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+html, #root{
+
+    background-color: black;
+    height: 100%;
+}
+body{
+    text-decoration: red;
+    color: red;
+}
+a{
+    text-decoration: red;
+    color: red;
+    transition: .5s;
+}
+a:hover{
+    color: black;
+}

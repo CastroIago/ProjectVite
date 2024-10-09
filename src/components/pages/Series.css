@@ -1,0 +1,45 @@
+.container .title {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0; /* Remova a margem inferior */
+}
+
+.title .query-text {
+    color: red;
+}
+
+.series-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem; /* Adicione espaço superior e inferior */
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.series-container li {
+   width: 17%; 
+   flex-direction: column;
+   margin-bottom: 2.5rem;
+   display: flex;
+   justify-content: space-between
+   color black;
+   background-color: red;
+   padding: 0.5rem;
+}
+
+.series-container img {
+    max-width: 100%; /* Define uma largura máxima para as imagens */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+}
+
+p{
+    font-family: 'Manrope';
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0.01rem;
+    padding: 0.5;
+   
+}
